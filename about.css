@@ -1,0 +1,35 @@
+
+.pt
+{
+	font-family: Calibri;
+	color: pink;
+}
+
+.pred
+{
+	font-style: normal;
+	color: pink	;
+	font-size: 20px;
+	font-family: arial;
+}
+
+#ty
+{
+	font-size: 20px;
+	font-family: arial;
+	color: white;
+	
+}
+
+.typ
+{
+	font-family: Calibri;
+	color: pink;
+	font:bold;
+	text-decoration: underline;
+}
+#text{
+        font-size: 20px;
+        font-family: Calibri;
+        color: white;
+}

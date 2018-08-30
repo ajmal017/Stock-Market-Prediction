@@ -1,0 +1,257 @@
+@CHARSET "ISO-8859-1";
+
+#bod{
+	background-image: url('bg.jpg')
+}
+#h1{
+	text-align: center;
+	font-size:60px;
+	font-family: Calibri;
+	font:bold;
+	animation: cssload-breathe 2s ease;
+	-o-animation: cssload-breathe 2s ease;
+	-ms-animation: cssload-breathe 2s ease;
+	-webkit-animation: cssload-breathe 2s ease;
+	-moz-animation: cssload-breathe 2s ease;
+	
+}
+#cccc
+{
+	text-align: center;
+}
+#dddd
+{
+	text-align:center;
+}
+
+#s1
+{
+	color:#05CBEE;
+}
+#s2{
+
+	color:#05CBEE;
+}
+#s3
+{
+	color:#05CBEE;
+}
+
+/*login.php*/
+#f1{
+	text-align:center;	
+}
+#log{
+	align: center;
+	position: relative;
+	font-family: Calibri;
+	font:bold;
+	font-size: 40px;
+	color: pink;
+}
+.u{
+	align: center;
+	position: relative;
+	font-family: Calibri;
+	font:bold;
+	font-size: 30px;
+		color: white;
+}
+.i1{
+	align: center;
+	position: relative;
+	width:250px;
+	font-family: Calibri;
+	font:bold;
+	font-size: 30px;
+	color:  #EFB571;
+	background-color: #272822;
+	border-radius: 5%;
+}
+#button1 {
+	margin-left: 25px;
+	margin-top: 100px;
+	font-family: Calibri;
+	font:bold;
+	font-size: 30px;
+  	margin:30px;
+	border: 10px;
+	width: 250px;
+	padding: 10px;
+	border-radius:100%;
+	background-color: #272822;
+	color: pink;
+  	display: inline-block;
+  	vertical-align: middle;
+  	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  	-webkit-backface-visibility: hidden;
+  	backface-visibility: hidden;
+  	-moz-osx-font-smoothing: grayscale;
+  	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+  	-webkit-animation-name: example 0.5s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration:1s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 1s;
+}
+#button1:hover, #button1:focus, #button1:active {
+  	-webkit-transform: scale(1.2);
+  	transform: scale(1.2);
+  	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#button1:hover
+{
+	margin-left: 25px;
+	margin-top: 100px;
+	font-family: Calibri;
+	font:bold;
+	font-size: 30px;
+	margin:30px;
+	border: 10px;
+	width:250px;
+	text-align: center;
+	padding: 10px;
+	border-radius:100%;
+	background-color: #05CBEE;
+    	color:  #272822;
+}
+#nr{
+	align: center;
+	position: relative;
+	font-family: Calibri;
+	font:bold;
+	font-size: 30px;
+	color: white;
+}
+#q{
+	align: center;
+	position: relative;
+	font-family: Calibri;
+	font:bold;
+	font-size: 30px;
+	color: pink;
+	
+}
+
+
+/*Animation*/
+
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: pink;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	80% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	
+	}
+	100%{
+		font-size:75px;
+		color:pink;
+	}
+}
+@-o-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+@-ms-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+@-webkit-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+@-moz-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+
